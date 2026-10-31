@@ -4,8 +4,16 @@
 
   # ⚡ Manhwa AI Translator
   ### Traductor en Tiempo Real con IA para Cómics, Manhwas, Mangas, Novelas Web y Apps
+  ### Real-Time On-Screen AI Translator for Comics, Manhwas, Mangas, Web Novels & Apps
 
-  **Nivel Scanlation Profesional en tu Pantalla · Inpainting Inteligente · Tipografías de Cómic**
+  **Nivel Scanlation Profesional en Pantalla · Inpainting Inteligente · Tipografías de Cómic**  
+  **Professional Scanlation Quality · Smart Inpainting · Authentic Comic Typography**
+
+  <p align="center">
+    <a href="#-versión-en-español"><b>🇪🇸 Versión en Español</b></a>
+    &nbsp;•&nbsp;
+    <a href="#-english-version"><b>🇬🇧 English Version</b></a>
+  </p>
 
   <p align="center">
     <a href="https://github.com/DarkYTGG/ManhwaTranslator-App/releases/latest">
@@ -33,44 +41,22 @@
 
   <p align="center">
     <a href="https://github.com/DarkYTGG/ManhwaTranslator-App/releases/latest/download/ManhwaTranslator.apk">
-      <b>📥 Descargar APK Directa</b>
+      <b>📥 Descargar APK Directa / Download APK</b>
     </a>
-    •
-    <a href="#caracteristicas">✨ Características</a>
-    •
-    <a href="#comparativa">📊 Comparativa</a>
-    •
-    <a href="#instalacion">🚀 Instalación</a>
-    •
-    <a href="#otros-proyectos">🌟 Otros Proyectos</a>
   </p>
 
 </div>
 
 ---
 
-## 📖 Tabla de Contenidos
+<a id="-versión-en-español"></a>
+## 🇪🇸 Versión en Español
 
-1. [🌟 ¿Qué es Manhwa AI Translator?](#que-es)
-2. [📊 Comparativa: Manhwa AI Translator vs. Traductores Convencionales](#comparativa)
-3. [✨ Características Principales](#caracteristicas)
-4. [🛠️ Arquitectura Técnica y Flujo de Procesamiento](#arquitectura)
-5. [🌍 Idiomas y Dialectos Soportados](#idiomas)
-6. [📲 Instalación y Primeros Pasos](#instalacion)
-7. [🔑 Configuración del Motor de IA](#configuracion-gemini)
-8. [🌐 Más Proyectos Destacados de @DarkYTGG](#otros-proyectos)
-9. [💻 Tecnologías y Stack Utilizado](#tecnologias)
-10. [🤝 Contribuir y Soporte](#soporte)
-
----
-
-<a id="que-es"></a>
-## 🌟 ¿Qué es Manhwa AI Translator?
+### 🌟 ¿Qué es Manhwa AI Translator?
 
 **Manhwa AI Translator** es una aplicación nativa para Android diseñada específicamente para lectores exigentes de cómics coreanos (*Manhwas/Webtoons*), japoneses (*Mangas*), chinos (*Manhuas*), novelas ligeras en inglés, videojuegos y aplicaciones móviles.
 
 A diferencia de las herramientas genéricas que colocan cuadros toscos de texto que arruinan el dibujo, Manhwa AI Translator funciona como un **asistente de Scanlation automatizado en tiempo real**:
-
 - **Detecta con precisión** los globos de diálogo individuales en pantalla.
 - **Aplica inpainting limpio**, borrando el texto original con el color exacto del fondo de la viñeta.
 - **Tipografía real de cómic**, calculando matemáticamente el tamaño y corte de línea para que las letras encajen dentro del globo de forma estética y natural.
@@ -82,8 +68,7 @@ A diferencia de las herramientas genéricas que colocan cuadros toscos de texto 
 
 ---
 
-<a id="comparativa"></a>
-## 📊 Comparativa vs Otros Traductores
+### 📊 Comparativa vs Otros Traductores
 
 | Característica | ⚡ Manhwa AI Translator | 🔍 Google Lens | 📱 Traductores Genéricos |
 | :--- | :---: | :---: | :---: |
@@ -94,52 +79,21 @@ A diferencia de las herramientas genéricas que colocan cuadros toscos de texto 
 | **Lectura Manga Derecha a Izquierda (RTL) y Vertical** | ✅ **Soporte Completo** | ❌ Solo lectura occidental | ⚠️ Fallos frecuentes |
 | **Glosario Personalizado (Nombres y Términos)** | ✅ **Totalmente Editable** | ❌ No disponible | ❌ No disponible |
 | **Navegador Web Integrado con AdBlock** | ✅ **Incluido** | ❌ No | ❌ No |
-| **Flexibilidad de Motores de IA (Modelo Propio / BYOK)** | ✅ **Multi-Proveedor** *(Gemini, GPT, DeepSeek, Local)* | ⚠️ Ecosistema cerrado de Google | 💳 Planes rígidos o anuncios invasivos |
+| **Flexibilidad de Motores de IA (BYOK)** | ✅ **Multi-Proveedor** *(Gemini, GPT, DeepSeek, Local)* | ⚠️ Ecosistema cerrado de Google | 💳 Planes rígidos o anuncios invasivos |
 | **Actualizaciones Automáticas Integradas (OTA)** | ✅ **En 1 clic desde la App** | ⚠️ Requiere Play Store | ❌ Descargas manuales |
 
 ---
 
-<a id="caracteristicas"></a>
-## ✨ Características Principales
-
-### 🔮 1. Modo Universal Inteligente
-Clasifica de manera automática el elemento visual en pantalla y ajusta el estilo de renderizado sin que tengas que tocar nada:
-- **Globos de diálogo:** Centrado elíptico con tipografía `Comic Neue Bold` y márgenes proporcionales.
-- **Gritos y efectos de impacto:** Fuente `Bangers Regular` en mayúsculas de alto contraste.
-- **Novelas Web y textos largos:** Bloques de lectura continua optimizados para evitar fatiga visual.
-- **Interfaces de juegos o apps de mensajería:** Tarjetas minimalistas con detección y descarte de elementos de UI (batería, hora, botones del sistema).
-
-### 🎨 2. Tipografías Profesionales Integradas
-Olvídate de fuentes genéricas y textos deformados. La app incluye tipografías vectoriales calibradas:
-- 💬 **`Comic Neue Bold`**: Diálogos editoriales limpios y de alta legibilidad.
-- 💥 **`Bangers Regular`**: Momentos de acción, gritos de combate, onomatopeyas y exclamaciones.
-- 💭 **`Comic Neue Italic`**: Monólogos internos, susurros y pensamientos de personajes.
-- 📖 **`Prose & Modern Sans`**: Interfaces de usuario, menús de videojuegos y párrafos descriptivos.
-
-### 🧼 3. Inpainting Sólido y Respeto al Arte
-- Muestreo cromático inteligente para replicar el fondo exacto del globo o de la viñeta.
-- Cobertura total de la tinta original sin recortar los trazos del dibujo circundante.
-- Soporte completo para pantallas con notch, esquinas redondeadas y barras dinámicas de Android.
-
-### 🌐 4. Navegador Web Integrado con AdBlocker
-- Lee directamente en agregadores o sitios oficiales de mangas y manhwas.
-- **AdBlocker Nativo:** Bloquea ventanas emergentes, scripts de redirección y publicidad invasiva.
-- **Traductor de Capítulos en Cascada:** Descarga y traduce capítulos completos página a página para leer fluidamente sin pausas.
-
-### 🤖 5. Arquitectura Multi-Motor de IA Flexible
-Elige el motor de IA que prefieras conectando tu propia clave de API:
-- **Google Gemini (1.5 Flash / 1.5 Pro):** Ultra veloz, alta calidad contextual y compatible con la cuota gratuita de Google AI Studio.
-- **OpenAI (GPT-4o / GPT-4o-mini):** Gran precisión de redacción y localización narrativa.
-- **DeepSeek (DeepSeek-Chat / V3):** Excelente balance de calidad y costo por token.
-- **Servidor Local (Ollama / Python):** Ejecuta modelos abiertos en tu propia PC mediante red local.
-- **ML Kit On-Device (Offline):** Traductor de emergencia integrado dentro del teléfono sin conexión a internet.
+### ✨ Características Principales
+- 🔮 **Modo Universal Inteligente:** Clasifica automáticamente entre globo elíptico, impacto/onomatopeya, novela continua o tarjeta de interfaz.
+- 🎨 **Tipografías Profesionales:** `Comic Neue Bold`, `Bangers Regular`, `Comic Neue Italic` y `Prose Sans`.
+- 🧼 **Inpainting Sólido:** Muestreo de color inteligente que reemplaza la tinta original sin recortar las viñetas.
+- 🌐 **Navegador Web con AdBlocker:** Lee en tus sitios favoritos bloqueando publicidad invasiva y con lector de capítulos en cascada.
+- 🤖 **Arquitectura Multi-IA:** Conecta tu clave de Google Gemini, OpenAI (GPT-4o), DeepSeek o ejecuta servidores locales con Ollama.
 
 ---
 
-<a id="arquitectura"></a>
-## 🛠️ Arquitectura Técnica y Flujo de Procesamiento
-
-El pipeline fue construido con foco en **cero congelamiento del hilo principal (`0ms UI Jank`)** y bajo consumo de batería en sesiones prolongadas:
+### 🛠️ Arquitectura Técnica y Flujo de Procesamiento
 
 ```mermaid
 flowchart LR
@@ -150,109 +104,145 @@ flowchart LR
     E --> F["🎨 Overlay en Hardware Canvas\n(Inpainting Sólido Subpíxel)"]
 ```
 
-1. **`ScreenCaptureEngine`**: Captura fotogramas a resolución nativa reciclando buffers para prevenir fugas de memoria (`OutOfMemoryError`).
-2. **`BubbleDetector`**: Agrupa coordenadas de texto, analiza bordes para separación de globos y respeta el orden de lectura según el modo (vertical para Manhwa, derecha a izquierda para Manga).
-3. **`TranslationEngine` & `ContextMemory`**: Empaqueta el texto en lotes estructurados para economizar tokens y preserva el contexto de diálogo previo.
-4. **`TypesetterEngine`**: Aplica búsqueda binaria de tamaño de letra y partición de líneas para rellenar de forma balanceada la forma de la burbuja.
-5. **`TranslationCanvasView`**: Renderiza sobre la pantalla mediante vistas nativas en capa flotante (`WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY`).
-
 ---
 
-<a id="idiomas"></a>
-## 🌍 Idiomas y Dialectos Soportados
+### 🌍 Idiomas y Dialectos Soportados
 
-| Idioma Original | Idioma de Destino | Modos y Formatos Soportados |
+| Idioma Original | Idioma de Destino | Modos Soportados |
 | :--- | :--- | :--- |
-| **Coreano (한국어)** | Español Latinoamericano / Castellano | Manhwas, Webtoons, Diálogos y Novelas |
-| **Japonés (日本語)** | Español Latinoamericano / Castellano | Mangas (Lectura Horizontal y Vertical RTL) |
-| **Chino (中文)** | Español Latinoamericano / Castellano | Manhuas, Webnovels (Xianxia/Wuxia) y Juegos |
-| **Inglés (English)** | Español Latinoamericano / Castellano | Webtoons occidentales, Novelas Web y Apps |
-| **Automático (Auto)** | Español Latinoamericano / Castellano | Detección inteligente por análisis Unicode |
-
-> [!TIP]
-> Puedes seleccionar entre **Español Latinoamericano** (localización neutra para cómic) y **Castellano** (España) desde el menú de ajustes de la aplicación.
+| **Coreano (한국어)** | Español Latino / Castellano | Manhwas, Webtoons, Diálogos y Novelas |
+| **Japonés (日本語)** | Español Latino / Castellano | Mangas (Lectura Horizontal y Vertical RTL) |
+| **Chino (中文)** | Español Latino / Castellano | Manhuas, Webnovels (Xianxia/Wuxia) y Juegos |
+| **Inglés (English)** | Español Latino / Castellano | Webtoons occidentales, Novelas Web y Apps |
+| **Automático (Auto)** | Español Latino / Castellano | Detección inteligente por análisis Unicode |
 
 ---
 
-<a id="instalacion"></a>
-## 📲 Instalación y Primeros Pasos
-
-### Paso 1: Descargar el instalador
-1. Ingresa a la sección de **[Releases Oficiales](https://github.com/DarkYTGG/ManhwaTranslator-App/releases)**.
-2. Descarga el archivo **`ManhwaTranslator.apk`** de la versión más reciente.
-3. Abre el archivo en tu dispositivo Android y pulsa **Instalar** (permite la instalación de fuentes desconocidas si es necesario).
-
-### Paso 2: Conceder permisos básicos
-Al abrir la app por primera vez, solo necesitas otorgar:
-- **Mostrar sobre otras aplicaciones:** Para poder dibujar las traducciones y el botón flotante sobre tu lector habitual (Tachiyomi, Mihon, Webtoon, Chrome, etc.).
-- **Captura de pantalla (MediaProjection):** Requerido por Android para analizar las viñetas que estés leyendo en ese instante.
-
-### Paso 3: Activar y Traducir
-1. Toca en **Iniciar Servicio** en la pantalla principal.
-2. Abre cualquier lector, webtoon, manga o red social.
-3. Presiona el botón flotante para traducir al instante lo que esté en tu pantalla.
+### 📲 Instalación y Configuración
+1. Descarga el archivo **`ManhwaTranslator.apk`** desde [Releases](https://github.com/DarkYTGG/ManhwaTranslator-App/releases).
+2. Instálalo en tu dispositivo Android y concede los permisos de **Superposición sobre otras apps** y **Captura de pantalla**.
+3. En **Ajustes** ➔ **Motor de IA**, ingresa tu clave gratuita de [Google AI Studio](https://aistudio.google.com/) o de tu proveedor preferido.
+4. Pulsa **Iniciar Servicio** y traduce en 1 toque con el botón flotante sobre cualquier app.
 
 ---
 
-<a id="configuracion-gemini"></a>
-## 🔑 Configuración del Motor de IA (Google Gemini)
+<a id="-english-version"></a>
+## 🇬🇧 English Version
 
-Puedes vincular tu propia clave de API en pocos segundos para disfrutar de la mejor velocidad y respuesta contextual:
+### 🌟 What is Manhwa AI Translator?
 
-1. Entra con tu cuenta de Google en **[Google AI Studio](https://aistudio.google.com/)**.
-2. Haz clic en **Get API key** y copia tu clave personal.
-3. En la app móvil, ve a **Ajustes** ➔ **Motor de IA** ➔ Selecciona **Google Gemini**, pega tu clave y guarda los cambios.
+**Manhwa AI Translator** is a native Android application engineered specifically for passionate readers of Korean webtoons (*Manhwas*), Japanese comics (*Mangas*), Chinese comics (*Manhuas*), light novels, and mobile gaming interfaces in real time.
+
+Unlike generic translators that overlay bulky solid blocks that ruin the artwork, Manhwa AI Translator acts as an **automated on-device scanlation assistant**:
+- **Accurately identifies** individual speech bubbles directly from the screen.
+- **Applies clean subpixel inpainting**, erasing the raw original text with the exact sampled background palette of the frame.
+- **Authentic comic typography**, mathematically computing font size and line breaks via binary search to fill the contour naturally.
+- **Context-aware AI translation**, preserving character gender consistency, idioms, and cultural honorifics (*Hyung, Oppa, Senpai, Shifu*).
+
+> [!NOTE]
+> **Transparency & Active Development:**  
+> The application is continuously evolving. We are actively refining edge cases in separating Siamese connected double bubbles and fine-tuning contextual memory during extended fast-paced dialogue exchanges.
 
 ---
 
-<a id="otros-proyectos"></a>
-## 🌐 Más Proyectos Destacados de @DarkYTGG
+### 📊 Comparison vs Other Translators
 
-Si te ha resultado útil este proyecto, te invito a conocer otros desarrollos de software y herramientas de mi autoría en GitHub:
+| Feature | ⚡ Manhwa AI Translator | 🔍 Google Lens | 📱 Generic Translators |
+| :--- | :---: | :---: | :---: |
+| **Clean Inpainting (No ugly rectangular boxes)** | ✅ **100% Solid Subpixel** | ❌ Blurry / Gray patch | ❌ Opaque bordered boxes |
+| **Authentic Comic Fonts (`Comic Neue`, `Bangers`)** | ✅ **Editorial Quality** | ❌ Generic system font | ❌ Flat Arial / Roboto |
+| **Dynamic Bubble Sizing (Binary Search)** | ⚡ **Automated Fit** *(Refining double bubbles)* | ❌ Frequent text overflows | ❌ Clipped or tiny font |
+| **Contextual Scene Memory** | ⚡ **Multimodal AI** *(Ongoing calibration)* | ❌ Isolated word-by-word | ❌ Incoherent literal outputs |
+| **Manga Right-to-Left (RTL) & Vertical Text** | ✅ **Full Support** | ❌ Western LTR only | ⚠️ Frequent parsing failures |
+| **Custom Glossary (Characters & Lore)** | ✅ **Fully Editable** | ❌ Not available | ❌ Not available |
+| **Integrated Web Browser with AdBlock** | ✅ **Included** | ❌ No | ❌ No |
+| **AI Model Flexibility (Bring Your Own Key)** | ✅ **Multi-Provider** *(Gemini, GPT, DeepSeek, Local)* | ⚠️ Google locked ecosystem | 💳 Rigid subscriptions / Intrusive ads |
+| **Built-in In-App Updates (OTA)** | ✅ **1-Click from Settings** | ⚠️ Play Store required | ❌ Manual GitHub checking |
+
+---
+
+### ✨ Core Features
+- 🔮 **Smart Universal Mode:** Automatically switches between elliptical comic bubbles, scream/impact onomatopoeias, reading prose, or game UI cards.
+- 🎨 **Scanlation-Grade Typography:** `Comic Neue Bold`, `Bangers Regular`, `Comic Neue Italic`, and `Prose Sans`.
+- 🧼 **Solid Inpainting:** Subpixel color sampling covering the raw source text without degrading bordering line art.
+- 🌐 **Integrated Browser with AdBlocker:** Read comfortably on aggregators with popup blocking and full chapter cascaded translation.
+- 🤖 **Multi-AI Architecture:** Connect your Google Gemini, OpenAI (GPT-4o), DeepSeek API key, or run offline/local models with Ollama.
+
+---
+
+### 🛠️ Technical Architecture & Pipeline
+
+```mermaid
+flowchart LR
+    A["📱 Screen Capture\n(MediaProjection / VirtualDisplay)"] --> B["🔍 Smart OCR\n(Google ML Kit Multi-Language)"]
+    B --> C["🧩 Bubble Detector\n(RTL Heuristics / Merging / UI Filter)"]
+    C --> D["🤖 AI Engine + Memory\n(Gemini / OpenAI / Scanlation Idioms)"]
+    D --> E["📐 Typesetter Engine\n(Binary Search Font Fit)"]
+    E --> F["🎨 Hardware Canvas Overlay\n(Subpixel Solid Inpainting)"]
+```
+
+---
+
+### 🌍 Supported Languages
+
+| Source Language | Target Language | Supported Formats |
+| :--- | :--- | :--- |
+| **Korean (한국어)** | Spanish (Latin America / Spain) | Manhwas, Webtoons, Dialogues & Web Novels |
+| **Japanese (日本語)** | Spanish (Latin America / Spain) | Mangas (Horizontal & Vertical RTL Reading) |
+| **Chinese (中文)** | Spanish (Latin America / Spain) | Manhuas, Webnovels (Xianxia/Wuxia) & Games |
+| **English** | Spanish (Latin America / Spain) | Western Webtoons, Novels & Mobile Apps |
+| **Automatic (Auto)** | Spanish (Latin America / Spain) | Unicode distribution analysis |
+
+---
+
+### 📲 Installation & Quick Setup
+1. Download **`ManhwaTranslator.apk`** from [Releases](https://github.com/DarkYTGG/ManhwaTranslator-App/releases).
+2. Install it on your Android device and grant **Display over other apps** and **Screen Capture** permissions.
+3. In **Settings** ➔ **AI Engine**, paste your free API key from [Google AI Studio](https://aistudio.google.com/) or your preferred LLM provider.
+4. Tap **Start Service** and use the floating pill button to translate anything on screen with a single tap.
+
+---
+
+## 🌐 Más Proyectos Destacados / More Featured Projects
 
 <div align="center">
 
-| Proyecto | Tipo | Descripción | Tecnologías | Enlace |
-| :--- | :---: | :--- | :---: | :---: |
-| 💼 **Sistema de Nómina (CaroníPay)** | 🚀 En Producción | Plataforma empresarial en producción activa (Montreal, Canadá) para liquidación contable, geocercas GPS y normativa CNESST. | ![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Sistema-de-Nomina) |
-| 🐓 **RoosterGenics Plugin** | 🎮 Servidores | Plugin avanzado e integral para Minecraft (Paper / Purpur / Folia 1.21) con arquitectura multihilo Folia-Aware. | ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![PaperMC](https://img.shields.io/badge/PaperMC_1.21-02303A?style=flat-square) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/RoosterGenics-Plugin) |
-| 🐓 **Wiki RoosterGenics** | 📖 Docs | Enciclopedia oficial y documentación técnica interactiva para el ecosistema de servidores de Minecraft 1.21. | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Wiki-RoosterGenics)<br>[**Demo en Vivo 🌐**](https://darkytgg.github.io/Wiki-RoosterGenics/) |
-| ⚡ **IA de Respaldo** | 🎓 Académico | **Proyecto Académico:** Chatbot inteligente especializado en ingeniería eléctrica (subestaciones eléctricas, sistemas de respaldo 125 VDC y puesta a tierra). | ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js) ![Gemini](https://img.shields.io/badge/Gemini_API-8E75FF?style=flat-square&logo=google) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/IA-de-respaldo) |
-| 🎮 **PixelVault** | 🎓 Académico | **Proyecto Académico:** Plataforma web de comercio electrónico y catálogo digital para videojuegos con diseño dinámico. | ![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask_3.1-black?style=flat-square&logo=flask) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Tienda-de-Videojuegos) |
+| Proyecto / Project | Tipo / Type | Descripción / Description | Enlace / Link |
+| :--- | :---: | :--- | :---: |
+| 💼 **Sistema de Nómina (CaroníPay)** | 🚀 Producción / Production | Plataforma empresarial activa de liquidación contable, geocercas GPS y normativa laboral. / Active enterprise platform for payroll, GPS geofencing, and labor compliance. | [**Ver / View ➔**](https://github.com/DarkYTGG/Sistema-de-Nomina) |
+| 🐓 **RoosterGenics Plugin** | 🎮 Servidores / Servers | Plugin avanzado para Minecraft (Paper / Purpur / Folia 1.21) con arquitectura multihilo Folia-Aware. / Advanced Minecraft Folia-Aware plugin. | [**Ver / View ➔**](https://github.com/DarkYTGG/RoosterGenics-Plugin) |
+| 🐓 **Wiki RoosterGenics** | 📖 Docs / Web | Enciclopedia y documentación técnica para Minecraft 1.21 en GitHub Pages. / Official documentation wiki on GitHub Pages. | [**Ver / View ➔**](https://github.com/DarkYTGG/Wiki-RoosterGenics) |
+| ⚡ **IA de Respaldo** | 🎓 Académico / Academic | Chatbot de ingeniería eléctrica para subestaciones y respaldo 125 VDC con Gemini. / Electrical engineering AI assistant. | [**Ver / View ➔**](https://github.com/DarkYTGG/IA-de-respaldo) |
+| 🎮 **PixelVault** | 🎓 Académico / Academic | Plataforma e-commerce y catálogo digital para videojuegos en Python y Flask. / Digital videogame catalog and e-commerce platform. | [**Ver / View ➔**](https://github.com/DarkYTGG/Tienda-de-Videojuegos) |
 
 </div>
 
 <p align="center">
-  👉 <b>Explora todos mis repositorios en:</b> <a href="https://github.com/DarkYTGG"><b>github.com/DarkYTGG</b></a> — ¡No olvides dejar una <b>⭐ Star</b> si te gusta mi trabajo!
+  👉 <b>Explora todos mis repositorios en / Explore all repositories at:</b> <a href="https://github.com/DarkYTGG"><b>github.com/DarkYTGG</b></a>
 </p>
 
 ---
 
-<a id="tecnologias"></a>
-## 💻 Tecnologías y Stack Utilizado
+## 💻 Stack Tecnológico / Tech Stack
 
-- **Lenguaje:** [Kotlin 2.0](https://kotlinlang.org/) (Corrutinas, StateFlow, Serialization)
+- **Lenguaje / Language:** [Kotlin 2.0](https://kotlinlang.org/) (Coroutines, StateFlow, Serialization)
 - **Framework UI:** [Jetpack Compose](https://developer.android.com/jetpack/compose) + Material 3
-- **Visión Artificial:** Google ML Kit Text Recognition (Latino, Coreano, Japonés, Chino)
-- **Overlay Rendering:** Android `WindowManager` con hardware canvas acelerado por GPU
-- **Networking:** [OkHttp 4](https://square.github.io/okhttp/) con interceptores de reconexión y JSON seguro
-- **Almacenamiento Local:** Jetpack DataStore Preferences
-- **CI / CD:** GitHub Actions con compilación y publicación automatizada de versiones
+- **Visión / Vision:** Google ML Kit Text Recognition (Latin, Korean, Japanese, Chinese)
+- **Overlay Rendering:** Android `WindowManager` hardware accelerated canvas
+- **Networking:** [OkHttp 4](https://square.github.io/okhttp/) & JSON Serialization
+- **Local Storage:** Jetpack DataStore Preferences
+- **CI / CD:** GitHub Actions automated release pipeline
 
 ---
 
-<a id="soporte"></a>
-## 🤝 Contribuir y Soporte
+## 🤝 Contribuir y Soporte / Contributing & Support
 
-¡Las contribuciones de la comunidad son bienvenidas!
-
-- 🐛 **¿Encontraste un error o bug?** Abre un reporte en la pestaña de [Issues](https://github.com/DarkYTGG/ManhwaTranslator-App/issues).
-- 💡 **¿Tienes una idea o sugerencia?** Comparte tus ideas creando una discusión o un feature request.
-- ⭐ **¿Te gusta el proyecto?** Dale una **estrella al repositorio** para ayudar a que más personas conozcan la aplicación.
+- 🐛 **Bugs:** Abre un reporte en [Issues](https://github.com/DarkYTGG/ManhwaTranslator-App/issues).
+- ⭐ **Soporte / Support:** Si te resulta útil el proyecto, ¡apóyalo con una estrella en GitHub! / *If you find this project useful, give it a star on GitHub!*
 
 ---
 
 <div align="center">
-  <p>Creado con dedicación por <b><a href="https://github.com/DarkYTGG">@DarkYTGG</a></b> para la comunidad lectora de Manhwas, Mangas y Webtoons.</p>
+  <p>Creado con dedicación por / Built with dedication by <b><a href="https://github.com/DarkYTGG">@DarkYTGG</a></b>.</p>
   <sub>Distribuido bajo Licencia MIT. © 2026 DarkYTGG.</sub>
 </div>

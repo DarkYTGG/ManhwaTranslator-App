@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/app_logo.png" alt="Manhwa AI Translator Logo" width="130" height="130" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <img src="https://raw.githubusercontent.com/DarkYTGG/ManhwaTranslator-App/main/assets/app_logo.png" alt="Manhwa AI Translator Logo" width="130" height="130" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
 
   # ⚡ Manhwa AI Translator
   ### Traductor en Tiempo Real con IA para Cómics, Manhwas, Mangas, Novelas Web y Apps
@@ -33,7 +33,7 @@
 
   <p align="center">
     <a href="https://github.com/DarkYTGG/ManhwaTranslator-App/releases/latest/download/ManhwaTranslator.apk">
-      <b>📥 Descargar APK Directa (Gratis)</b>
+      <b>📥 Descargar APK Directa</b>
     </a>
     •
     <a href="#caracteristicas">✨ Características</a>
@@ -57,7 +57,7 @@
 4. [🛠️ Arquitectura Técnica y Flujo de Procesamiento](#arquitectura)
 5. [🌍 Idiomas y Dialectos Soportados](#idiomas)
 6. [📲 Instalación y Primeros Pasos](#instalacion)
-7. [🔑 Configurar tu Clave Gratuita de Google Gemini](#configuracion-gemini)
+7. [🔑 Configuración del Motor de IA](#configuracion-gemini)
 8. [🌐 Más Proyectos Destacados de @DarkYTGG](#otros-proyectos)
 9. [💻 Tecnologías y Stack Utilizado](#tecnologias)
 10. [🤝 Contribuir y Soporte](#soporte)
@@ -71,10 +71,14 @@
 
 A diferencia de las herramientas genéricas que colocan cuadros toscos de texto que arruinan el dibujo, Manhwa AI Translator funciona como un **asistente de Scanlation automatizado en tiempo real**:
 
-- **Detecta con precisión** los globos de diálogo individuales o conectados.
+- **Detecta con precisión** los globos de diálogo individuales en pantalla.
 - **Aplica inpainting limpio**, borrando el texto original con el color exacto del fondo de la viñeta.
 - **Tipografía real de cómic**, calculando matemáticamente el tamaño y corte de línea para que las letras encajen dentro del globo de forma estética y natural.
-- **Traducción contextual con IA**, evitando errores de género, conservando modismos y respetando honoríficos propios de la cultura oriental (*Hyung, Oppa, Senpai, Shifu*).
+- **Traducción contextual con IA**, preservando modismos y respetando honoríficos propios de la cultura oriental (*Hyung, Oppa, Senpai, Shifu*).
+
+> [!NOTE]
+> **Transparencia y Desarrollo Activo:**  
+> La aplicación se encuentra en constante evolución técnica. Actualmente trabajamos en optimizaciones continuas para perfeccionar la separación automática en casos de globos dobles conectados siameses y en calibrar con mayor finura la memoria contextual en secuencias de diálogo rápido.
 
 ---
 
@@ -85,12 +89,12 @@ A diferencia de las herramientas genéricas que colocan cuadros toscos de texto 
 | :--- | :---: | :---: | :---: |
 | **Inpainting Limpio (Sin recuadros feos)** | ✅ **100% Sólido Subpíxel** | ❌ Borroso / Parche gris | ❌ Cajas opacas con bordes |
 | **Tipografía Real de Cómic (`Comic Neue`, `Bangers`)** | ✅ **Nivel Editorial** | ❌ Fuente genérica del sistema | ❌ Arial / Roboto plana |
-| **Ajuste Dinámico de Burbuja (Binary Search Sizing)** | ✅ **Alineación perfecta** | ❌ Desbordes frecuentes | ❌ Texto cortado o diminuto |
-| **Comprensión Contextual y Memoria de Escena** | ✅ **IA Multimodal (LLMs)** | ❌ Traducción aislada palabra a palabra | ❌ Literal sin coherencia |
+| **Ajuste Dinámico de Burbuja (Binary Search)** | ⚡ **Ajuste Automático** *(Optimizando globos dobles)* | ❌ Desbordes frecuentes | ❌ Texto cortado o diminuto |
+| **Comprensión Contextual y Memoria de Escena** | ⚡ **IA Multimodal** *(Calibración continua)* | ❌ Traducción aislada palabra a palabra | ❌ Literal sin coherencia |
 | **Lectura Manga Derecha a Izquierda (RTL) y Vertical** | ✅ **Soporte Completo** | ❌ Solo lectura occidental | ⚠️ Fallos frecuentes |
 | **Glosario Personalizado (Nombres y Términos)** | ✅ **Totalmente Editable** | ❌ No disponible | ❌ No disponible |
 | **Navegador Web Integrado con AdBlock** | ✅ **Incluido** | ❌ No | ❌ No |
-| **Traducción 100% Gratuita (Google AI Studio)** | ✅ **Gemini 1.5 Flash sin límites** | ⚠️ Requiere conexión a Google | 💳 Planes de pago o anuncios |
+| **Flexibilidad de Motores de IA (Modelo Propio / BYOK)** | ✅ **Multi-Proveedor** *(Gemini, GPT, DeepSeek, Local)* | ⚠️ Ecosistema cerrado de Google | 💳 Planes rígidos o anuncios invasivos |
 | **Actualizaciones Automáticas Integradas (OTA)** | ✅ **En 1 clic desde la App** | ⚠️ Requiere Play Store | ❌ Descargas manuales |
 
 ---
@@ -123,12 +127,12 @@ Olvídate de fuentes genéricas y textos deformados. La app incluye tipografías
 - **Traductor de Capítulos en Cascada:** Descarga y traduce capítulos completos página a página para leer fluidamente sin pausas.
 
 ### 🤖 5. Arquitectura Multi-Motor de IA Flexible
-Elige el motor de IA que prefieras según tu velocidad de conexión o preferencia:
-- **Google Gemini (1.5 Flash / 1.5 Pro):** Ultra veloz, compresión de contexto superior y **100% gratuito** mediante tu API de Google AI Studio.
-- **OpenAI (GPT-4o / GPT-4o-mini):** Máxima precisión de redacción y localización narrativa.
-- **DeepSeek (DeepSeek-Chat / V3):** Gran desempeño y relación costo-eficiencia.
+Elige el motor de IA que prefieras conectando tu propia clave de API:
+- **Google Gemini (1.5 Flash / 1.5 Pro):** Ultra veloz, alta calidad contextual y compatible con la cuota gratuita de Google AI Studio.
+- **OpenAI (GPT-4o / GPT-4o-mini):** Gran precisión de redacción y localización narrativa.
+- **DeepSeek (DeepSeek-Chat / V3):** Excelente balance de calidad y costo por token.
 - **Servidor Local (Ollama / Python):** Ejecuta modelos abiertos en tu propia PC mediante red local.
-- **ML Kit On-Device (Offline):** Traducción de emergencia sin necesidad de conexión a internet.
+- **ML Kit On-Device (Offline):** Traductor de emergencia integrado dentro del teléfono sin conexión a internet.
 
 ---
 
@@ -147,8 +151,8 @@ flowchart LR
 ```
 
 1. **`ScreenCaptureEngine`**: Captura fotogramas a resolución nativa reciclando buffers para prevenir fugas de memoria (`OutOfMemoryError`).
-2. **`BubbleDetector`**: Agrupa coordenadas de texto, separa globos dobles siameses y respeta el orden de lectura según el modo (vertical para Manhwa, derecha a izquierda para Manga).
-3. **`TranslationEngine` & `ContextMemory`**: Empaqueta el texto en lotes estructurados para economizar tokens y mantiene el historial de la conversación previa.
+2. **`BubbleDetector`**: Agrupa coordenadas de texto, analiza bordes para separación de globos y respeta el orden de lectura según el modo (vertical para Manhwa, derecha a izquierda para Manga).
+3. **`TranslationEngine` & `ContextMemory`**: Empaqueta el texto en lotes estructurados para economizar tokens y preserva el contexto de diálogo previo.
 4. **`TypesetterEngine`**: Aplica búsqueda binaria de tamaño de letra y partición de líneas para rellenar de forma balanceada la forma de la burbuja.
 5. **`TranslationCanvasView`**: Renderiza sobre la pantalla mediante vistas nativas en capa flotante (`WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY`).
 
@@ -191,14 +195,13 @@ Al abrir la app por primera vez, solo necesitas otorgar:
 ---
 
 <a id="configuracion-gemini"></a>
-## 🔑 Configurar tu Clave Gratuita de Google Gemini
+## 🔑 Configuración del Motor de IA (Google Gemini)
 
-Recomendamos usar **Google Gemini 1.5 Flash** por su impresionante velocidad y por ser **100% gratuito**:
+Puedes vincular tu propia clave de API en pocos segundos para disfrutar de la mejor velocidad y respuesta contextual:
 
-1. Ingresa con tu cuenta de Google a **[Google AI Studio](https://aistudio.google.com/)**.
-2. Haz clic en el botón azul **Get API key** y selecciona **Create API key**.
-3. Copia tu clave generada.
-4. En **Manhwa AI Translator**, ve a **Ajustes** ➔ **Motor de IA** ➔ Selecciona **Google Gemini**, pega tu API Key y guarda los cambios. ¡Listo!
+1. Entra con tu cuenta de Google en **[Google AI Studio](https://aistudio.google.com/)**.
+2. Haz clic en **Get API key** y copia tu clave personal.
+3. En la app móvil, ve a **Ajustes** ➔ **Motor de IA** ➔ Selecciona **Google Gemini**, pega tu clave y guarda los cambios.
 
 ---
 
@@ -211,6 +214,7 @@ Si te ha resultado útil este proyecto, te invito a conocer otros desarrollos de
 
 | Proyecto | Tipo | Descripción | Tecnologías | Enlace |
 | :--- | :---: | :--- | :---: | :---: |
+| 💼 **Sistema de Nómina (CaroníPay)** | 🚀 En Producción | Plataforma empresarial en producción activa (Montreal, Canadá) para liquidación contable, geocercas GPS y normativa CNESST. | ![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Sistema-de-Nomina) |
 | 🐓 **RoosterGenics Plugin** | 🎮 Servidores | Plugin avanzado e integral para Minecraft (Paper / Purpur / Folia 1.21) con arquitectura multihilo Folia-Aware. | ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![PaperMC](https://img.shields.io/badge/PaperMC_1.21-02303A?style=flat-square) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/RoosterGenics-Plugin) |
 | 🐓 **Wiki RoosterGenics** | 📖 Docs | Enciclopedia oficial y documentación técnica interactiva para el ecosistema de servidores de Minecraft 1.21. | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Wiki-RoosterGenics)<br>[**Demo en Vivo 🌐**](https://darkytgg.github.io/Wiki-RoosterGenics/) |
 | ⚡ **IA de Respaldo** | 🎓 Académico | **Proyecto Académico:** Chatbot inteligente especializado en ingeniería eléctrica (subestaciones eléctricas, sistemas de respaldo 125 VDC y puesta a tierra). | ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js) ![Gemini](https://img.shields.io/badge/Gemini_API-8E75FF?style=flat-square&logo=google) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/IA-de-respaldo) |

@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="app/src/main/res/drawable/app_logo.png" alt="Manhwa AI Translator Logo" width="130" height="130" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <img src="https://raw.githubusercontent.com/DarkYTGG/ManhwaTranslator-App/main/assets/app_logo.png" alt="Manhwa AI Translator Logo" width="130" height="130" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
 
   # ⚡ Manhwa AI Translator
   ### Traductor en Tiempo Real con IA para Cómics, Manhwas, Mangas, Novelas Web y Apps
@@ -209,11 +209,12 @@ Si te ha resultado útil este proyecto, te invito a conocer otros desarrollos de
 
 <div align="center">
 
-| Proyecto | Descripción | Tecnologías | Enlace |
-| :--- | :--- | :---: | :---: |
-| ⚡ **IA de Respaldo** | Chatbot inteligente y especializado en ingeniería eléctrica (subestaciones eléctricas, sistemas de respaldo 125 VDC y puestas a tierra). | ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js) ![Gemini](https://img.shields.io/badge/Gemini_API-8E75FF?style=flat-square&logo=google) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/IA-de-respaldo) |
-| 🎮 **PixelVault** | Plataforma de comercio electrónico y tienda digital para videojuegos con catálogo interactivo y pasarela de navegación fluida. | ![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask_3.1-black?style=flat-square&logo=flask) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Tienda-de-Videojuegos) |
-| 🐓 **RoosterGenics Wiki** | Enciclopedia y documentación técnica interactiva para el ecosistema de servidores de Minecraft Paper/Purpur 1.21. | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Wiki-RoosterGenics)<br>[**Demo en Vivo 🌐**](https://darkytgg.github.io/Wiki-RoosterGenics/) |
+| Proyecto | Tipo | Descripción | Tecnologías | Enlace |
+| :--- | :---: | :--- | :---: | :---: |
+| 🐓 **RoosterGenics Plugin** | 🎮 Servidores | Plugin avanzado e integral para Minecraft (Paper / Purpur / Folia 1.21) con arquitectura multihilo Folia-Aware. | ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![PaperMC](https://img.shields.io/badge/PaperMC_1.21-02303A?style=flat-square) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/RoosterGenics-Plugin) |
+| 🐓 **Wiki RoosterGenics** | 📖 Docs | Enciclopedia oficial y documentación técnica interactiva para el ecosistema de servidores de Minecraft 1.21. | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Wiki-RoosterGenics)<br>[**Demo en Vivo 🌐**](https://darkytgg.github.io/Wiki-RoosterGenics/) |
+| ⚡ **IA de Respaldo** | 🎓 Académico | **Proyecto Académico:** Chatbot inteligente especializado en ingeniería eléctrica (subestaciones eléctricas, sistemas de respaldo 125 VDC y puesta a tierra). | ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js) ![Gemini](https://img.shields.io/badge/Gemini_API-8E75FF?style=flat-square&logo=google) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/IA-de-respaldo) |
+| 🎮 **PixelVault** | 🎓 Académico | **Proyecto Académico:** Plataforma web de comercio electrónico y catálogo digital para videojuegos con diseño dinámico. | ![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask_3.1-black?style=flat-square&logo=flask) | [**Ver Repositorio ➔**](https://github.com/DarkYTGG/Tienda-de-Videojuegos) |
 
 </div>
 

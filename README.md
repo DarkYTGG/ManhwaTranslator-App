@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="app/src/main/res/drawable/app_logo.png" alt="Manhwa AI Translator Logo" width="130" height="130" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <img src="assets/app_logo.png" alt="Manhwa AI Translator Logo" width="130" height="130" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
 
   # ⚡ Manhwa AI Translator
   ### Traductor en Tiempo Real con IA para Cómics, Manhwas, Mangas, Novelas Web y Apps
